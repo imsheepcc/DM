@@ -1,0 +1,21 @@
+# 算法面试教练 V2 - 依赖
+
+# 核心依赖
+requests>=2.28.0  # HTTP调用（作为SDK的备选方案）
+
+# ========== LLM API客户端（按需安装）==========
+
+# 通义千问 (推荐)
+# 方式1: DashScope原生SDK
+dashscope>=1.14.0
+
+# 方式2: OpenAI兼容接口（也适用于OpenAI API）
+openai>=1.0.0
+
+# Anthropic API (可选)
+anthropic>=0.18.0
+
+# ========== 测试与开发 ==========
+pytest>=7.0.0
+black>=23.0.0
+mypy>=1.0.0
